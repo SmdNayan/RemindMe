@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Remind Me</string>
+    <string name="loading">Loading…</string>
+    <string name="title_activity_to_do_list">ToDoList</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sign out</string>
+</resources>

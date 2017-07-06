@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nayan.me.remindme.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile_photo"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/signin_email_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_email"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="E-mail"
+        android:paddingLeft="30dp"
+        />
+    <EditText
+        android:id="@+id/sign_in_password_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_email"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="Password"
+        android:paddingLeft="30dp"
+        />
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sign_in_button"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:gravity="center"
+        android:padding="8dp"
+        />
+    <Button
+        android:id="@+id/google_sign_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_google_signin_light_normal_web"
+        android:layout_gravity="center"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/create_acc_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a new account here"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

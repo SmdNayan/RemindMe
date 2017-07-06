@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nayan.me.remindme.Sign_Up"
+    android:background="@drawable/sign_up_background"
+    >
+
+    <ImageButton
+
+        android:id="@+id/cancel_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/navigation_bar_cross"
+        android:layout_margin="8dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_photo"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:id="@+id/full_name_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edit_text_button"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Full Name"
+        android:paddingLeft="32dp"
+        android:textColorHint="#FFEBEE"
+        />
+    <EditText
+        android:id="@+id/email_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edit_text_button"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="E-mail"
+        android:paddingLeft="32dp"
+        android:textColorHint="#FFEBEE"
+        />
+
+    <EditText
+        android:id="@+id/password_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edit_text_button"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:paddingLeft="32dp"
+        android:textColorHint="#FFEBEE"
+        />
+    <EditText
+        android:id="@+id/mobileNumber_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edit_text_button"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Phone Number"
+        android:paddingLeft="32dp"
+        android:textColorHint="#FFEBEE"
+        />
+    <Button
+        android:id="@+id/signUp_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_btn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sign Up"
+        />
+</LinearLayout>
